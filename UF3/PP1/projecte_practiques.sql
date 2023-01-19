@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS empresa (
 	PRIMARY KEY (id_empresa)
 );
 
-CREATE TABLE IF NOT EXISTS practiques (
+CREATE TABLE IF NOT EXISTS practica (
 	id_practica INT (45) NOT NULL,
 	id_alumne INT(45) NOT NULL,
 	id_empresa INT(45) NOT NULL,
@@ -71,8 +71,8 @@ VALUES	(35, 'SMIX'),
 ;
 
 INSERT INTO empresa (id_empresa, nom_empresa, adreça, telefon, email, id_tutorempresa, id_homologacio)
-VALUES 	(50, 'FruteriaSAB', 'Avenida general, Sant Adria de Besos', 626379323, 'fruteria@gmail.com', 6, 71),
-	(55, 'PatosMuebles', 'Carrer Pere IV, Barcelona', 688123201, 'patosmuebles@gmail.com', 5, 83),
+VALUES 	(50, 'FruteriaSAB', 'Carrer Josep Tries, Sant Adria de Besos', 626379323, 'fruteria@gmail.com', 6, 71),
+	(55, 'PatosMuebles', 'Carrer Espluges, Barcelona', 688123201, 'patosmuebles@gmail.com', 5, 83),
 	(60, 'Bazar24h', 'Carrer Joan Baptista, Badalona', 600321232, 'bazar24hbcn@gmail.com', 8, 95)
 ;
 
